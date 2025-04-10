@@ -29,6 +29,10 @@
     "noUncheckedIndexedAccess": true,
     "allowUnusedLabels": true,
     "allowUnreachableCode": true,
+
+    "paths": {
+      "@/*": [ "./src/*" ]
+    }
   },
   "include": [ "src" ]
 }
