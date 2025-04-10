@@ -1,0 +1,21 @@
+{
+  // Name of the workspace
+  "folders": [
+    {
+      // Path to the first folder in the workspace
+      "path": "bulletproof-react-2025"
+    },
+    {
+      // Path to the first folder in the workspace
+      "path": ".",
+      "name": "root"
+    }
+  ],
+  "settings": {
+    // Add any workspace-specific settings here
+  },
+  "extensions": {
+    // Recommended extensions for this workspace
+    "recommendations": []
+  }
+}
