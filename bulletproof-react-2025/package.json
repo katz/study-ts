@@ -15,6 +15,7 @@
     "@tanstack/react-query-devtools": "^5.32.0",
     "axios": "^1.8.4",
     "neverthrow": "^8.2.0",
+    "option-t": "^53.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "zod": "^3.24.2"

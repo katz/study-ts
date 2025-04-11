@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { User } from '@/features/httpbin/components/user'
+import { User2 } from '@/features/httpbin/components/user2'
 import React from 'react'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { queryConfig } from './lib/react-query'
@@ -41,6 +42,8 @@ function App() {
       </p>
 
       <User />
+      <hr />
+      <User2 />
     </QueryClientProvider>
   )
 }
