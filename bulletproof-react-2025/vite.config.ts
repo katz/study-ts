@@ -12,7 +12,7 @@ const vitestConfig = defineVitestConfig({
   test: {
     globals: true,
     environment: "jsdom",
-    setupFiles: "./src/tests/setup-tests.ts",
+    setupFiles: "./src/testing/setup-tests.ts",
     exclude: ["**/node_modules/**", "**/e2e/**"],
     coverage: {
       include: ["src/**"],

@@ -1,6 +1,6 @@
 import { beforeAll, afterAll, beforeEach, afterEach, vi } from "vitest";
 
-import { server } from "@/tests/mocks/server";
+import { server } from "@/testing/mocks/server";
 
 beforeAll(() => server.listen({ onUnhandledRequest: "error" }));
 afterAll(() => server.close());
