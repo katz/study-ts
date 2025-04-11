@@ -44,7 +44,7 @@ const getFromApi = (randValue: number): ResultAsync<User, UserNotFound> => {
 /**
  * ReduxやAPIからUserデータをとってくる関数。まずはReduxからとってきて、Redux内にデータが無ければAPIからとってくる。
  */
-const getUser = () => {
+const getUser = async (): Promise<User> => {
   return getFromRedux(Math.random())
     .orElse((err) => getFromApi(Math.random()))
     .then(r => r.isOk() ? Promise.resolve(r.value) : Promise.reject(r.error))
